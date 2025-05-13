@@ -5,56 +5,56 @@ from pathlib import Path
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 
-# —— 加载环境 & 常量 —— #
+# —— Load environment & constants —— #
 load_dotenv()
 API_KEY = os.getenv("GMI_API_KEY")
 if not API_KEY:
-    raise RuntimeError("请在 .env 中设置 GMI_API_KEY")
+    raise RuntimeError("Please set GMI_API_KEY in your .env file")
 
 API_URL = "https://api.gmi-serving.com/v1/chat/completions"
 ROOT = Path(__file__).parent.parent
 
-# —— 准备索引 & 文本 & 嵌入模型 —— #
+# —— Load FAISS index, source texts, and embedding model —— #
 index = faiss.read_index(str(ROOT / "index" / "resume.index"))
 with open(ROOT / "embeddings" / "texts.json", "r", encoding="utf-8") as f:
-    texts = json.load(f)
+    source_texts = json.load(f)
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-# —— 检索函数 —— #
+# —— Vector search —— #
 def retrieve(query: str, top_k: int = 3) -> list[str]:
-    q_vec = model.encode([query], convert_to_numpy=True)
-    faiss.normalize_L2(q_vec)
-    D, I = index.search(q_vec, top_k)
-    return [texts[i] for i in I[0]]
+    query_vec = model.encode([query], convert_to_numpy=True)
+    faiss.normalize_L2(query_vec)
+    distances, indices = index.search(query_vec, top_k)
+    return [source_texts[i] for i in indices[0]]
 
-# —— Prompt 构造 —— #
-def build_prompt(query: str, retrieved_texts: list[str]) -> str:
-    prompt = "以下是与你问题相关的简历片段：\n"
-    for idx, chunk in enumerate(retrieved_texts, 1):
+# —— Prompt construction —— #
+def build_prompt(query: str, retrieved_chunks: list[str]) -> str:
+    prompt = "Here are some resume snippets related to your question:\n"
+    for idx, chunk in enumerate(retrieved_chunks, 1):
         prompt += f"{idx}. {chunk}\n"
-    prompt += f"\n请基于上述信息，回答问题：“{query}”"
+    prompt += f"\nBased on the information above, please answer the question: \"{query}\""
     return prompt
 
-# —— 调用 GMI REST 接口 —— #
+# —— Call GMI REST API —— #
 def answer_query(query: str, top_k: int = 3) -> str:
-    hits   = retrieve(query, top_k)
-    prompt = build_prompt(query, hits)
+    related_texts = retrieve(query, top_k)
+    prompt = build_prompt(query, related_texts)
 
     headers = {
         "Authorization": f"Bearer {API_KEY}",
-        "Content-Type":  "application/json",
+        "Content-Type": "application/json",
     }
     payload = {
-        "model":    "deepseek-ai/DeepSeek-R1",
+        "model": "deepseek-ai/DeepSeek-R1",
         "messages": [{"role": "user", "content": prompt}],
     }
 
-    resp = requests.post(API_URL, headers=headers, json=payload)
-    resp.raise_for_status()
-    data = resp.json()
-    return data["choices"][0]["message"]["content"]
+    response = requests.post(API_URL, headers=headers, json=payload)
+    response.raise_for_status()
+    result = response.json()
+    return result["choices"][0]["message"]["content"]
 
-# —— 本地测试 —— #
+# —— Local test —— #
 if __name__ == "__main__":
-    q = "我的项目经验都有哪些亮点？"
-    print(">>", answer_query(q))
+    sample_query = "What are the highlights of my project experience?"
+    print(">>", answer_query(sample_query))
