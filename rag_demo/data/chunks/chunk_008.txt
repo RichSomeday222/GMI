@@ -1,0 +1,1 @@
+js • Engineered AI document summarization platform reducing review time by 20%, integrating Google Gemini API • Implemented version-controlled document tree visualization using react-d3-tree/Redux, enabling content exploration • Designed bidirectional text-highlighting with PDF.
