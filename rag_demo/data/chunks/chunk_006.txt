@@ -1,1 +1,1 @@
-8/5.0 rating  Research Assistant – GNN-101 Supervisor: Qianwen Wang| Oct 2024 – Present • Developed educational visualization tool illustrating GNN layer-by-layer learning with interpretable views • Implemented interface using Next.js/React/D3.
+J.

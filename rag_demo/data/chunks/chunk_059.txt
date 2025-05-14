@@ -1,0 +1,21 @@
+Hearst, “Document-Level
+Definition Detection in Scholarly Documents: Existing Models, Error Analyses, and Future Directions”, SDP
+Workshop @EMNLP 2020
+W1Jung-Woo Ha, Dongyeop Kang, Hyuna Pyo, Jeonghee Kim, “News2Images: Automatically Summarizing News
+Articles into Image-Based Contents via Deep Learning”, INRA Workshop @RecSys 2015
+INVITED INVITED SPEAKERS
+Invited Speakers and Lectures
+•Invited Talk, Under the Surface: Tracking the Artifactuality of LLM-Generated Data , Megagon Labs, May 2024
+•Guest lecture, Human-centric NLP in era of Large Language Models , JOUR8500 - Advanced Methods Seminar:
+Computational Communication Research, UMN, Mar 2024
+•Invited speaker, Scaffolding AI with Human Cognition , Thomson Reuters Labs, Nov 2023
+•Invited guest lecturer, AI for Scholarly Reading and Writing , Pennsylvania State University (PSU), Sept 2023
+•Invited Speaker, Human-centric Language Technologies: Of the Human, By the Human, For the Human , UMN
+NLP/IE group, Sept 2023
+•Invited Speaker, Human-centric AI: For the Human, Of the Human, by the Human , 3M NTFA Symposium, Aug
+2023
+•Invited Speaker, Disagreement Modeling in the era of Large Language Models , Microsoft Research, May 2023
+•Invited Panelist, ChatGPT and the Future of AI-Assisted Professionals: A Discussion with UMN Law, Computer
+Science, and Education Experts on How AI is Disrupting Professional and Educational Spaces , UMN Law School,
+May 2023
+•Interview with Echo (student-run news site of St.

@@ -1,1 +1,6 @@
-js rendering, achieving sub-100ms response for location navigation • Deployed on AWS EKS using Docker/Kubernetes, implementing autoscaling handling 500+ concurrent users  Advanced NLP & Machine Learning Projects | PyTorch, HuggingFace, TensorFlow, AWS SageMaker • Designed text classifier in PyTorch achieving 92% accuracy, optimizing hyperparameters with Optuna  • Fine-tuned DistilBERT on SST-2 dataset using HuggingFace Transformers, achieving 94.
+, Language Technology Institute, School of Computer Science
+Thesis: Linguistically Informed Language Generation: A Multifaceted Approach
+Advisor: Eduard Hovy
+Committee: Jeffrey Bigham, Alan W Black, Jason Weston, Dan Jurafsky
+Korea Advanced Institute of Science and Technology (KAIST) 2010
+B.

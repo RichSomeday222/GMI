@@ -1,0 +1,23 @@
+14660 under review
+Refereed Conference Proceedings
+C52 Haechan Kim, Junho Myung, Seoyoung Kim, Sungpah Lee, Dongyeop Kang, Juho Kim “LearnerVoice: A
+Dataset of Non-Native English Learners’ Spontaneous Speech” Interspeech 2024
+C51 Carl Winge, Adam Imdieke, Bahaa Aldeeb, Dongyeop Kang, Karthik Desingh, “Talk Through It: End User
+Directed Manipulation Learning” IEEE Robotics and Automation Letters (RA-L) 2024
+C50 Zae Myung Kim, Kwang Hee Lee, Preston Zhu, Vipul Raheja, Dongyeop Kang, “Threads of Subtlety: Detecting
+Machine-Generated Texts Through Discourse Motifs” Proceedings of the Annual Meeting of the Association for
+Computational Linguistics (ACL) 2024 link
+C49 Daechul Ahn, Yura Choi, Youngjae Yu, Dongyeop Kang, Jonghyun Choi, “Tuning Large Multimodal Models
+for Videos using Reinforcement Learning from AI Feedback ” , Proceedings of the Annual Meeting of the
+Association for Computational Linguistics (ACL) 2024 link Oral
+C48 Jihyung Kil, Joo-Kyung Kim, Dongyeop Kang, “II-MMR: Identifying and Improving Multi-modal Multi-hop
+Reasoning in Visual Question Answering”, Findings of the Annual Meeting of the Association for Computational
+Linguistics (ACL) 2024 link
+C47 Ryan Koo, Minhwa Lee, Vipul Raheja, Jong Inn Park, Zae Myung Kim, Dongyeop Kang, “Benchmarking
+Cognitive Biases in Large Language Models as Evaluators”, Findings of the Annual Meeting of the Association
+for Computational Linguistics (ACL) 2024 link
+C46 Gabriel Garlough-Shah, Jong Inn Park, Shirley Anugrah Hayati, Dongyeop Kang, Jisu Huh, “Consumer En-
+gagement With AI-Powered Search Engines and Implications for the Future of Search Advertising” Association
+for Education in Journalism and Mass Communication (AEJMC) 2024
+C45 Debarati Das, Ishaan Gupta, Jaideep Srivastava, Dongyeop Kang, “Which Modality should I use – Text, Motif,
+or Image?

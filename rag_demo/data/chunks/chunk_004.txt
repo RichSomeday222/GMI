@@ -1,1 +1,6 @@
-| Palo Alto, CA Software Engineering Intern | Jun 2024 – Aug 2024 • Architected zero-knowledge proof solutions processing 100K+ transactions, achieving 95% efficiency • Engineered caching system with Redis/LRU, achieving 80% cache hit rate and 25% latency reduction • Developed monitoring infrastructure using Prometheus/Grafana, automating error detection and reducing debug time.• Redesigned authentication system implementing JWT/OAuth 2.
+io
+259 Shepherd, 200 Union Street SE, Minneapolis, MN, 55455
+Last updated on August 3, 2024
+PROFESSIONAL EMPLOYMENT HISTORY
+•2021 – present: Assistant Professor, University of Minnesota, Twin Cities
+•2020 – 2021: Postdoctoral Scholar – University of California, Berkeley (PI: Marti A.

@@ -1,0 +1,51 @@
+D) have different connota-
+tions: Parallelly Annotated Stylistic Language Dataset with Multiple Personas”, Proceedings of the Conference
+on Empirical Methods in Natural Language Processing (EMNLP) 2019 Oral
+C10 Dongyeop Kang, Hiroaki Hayashi, Alan W Black, Eduard Hovy, “Linguistic Versus Latent Relations for Model-
+ing Coherent Flow in Paragraphs”, Proceedings of the Conference on Empirical Methods in Natural Language
+Processing (EMNLP) 2019
+C9Dongyeop Kang, Tushar Khot, Ashish Sabharwal, Peter Clark, “Bridging Knowledge Gaps in Neural Entailment
+via Symbolic Models”, Proceedings of the Conference on Empirical Methods in Natural Language Processing
+(EMNLP) 2018
+C8Dongyeop Kang, Tushar Khot, Ashish Sabharwal, Eduard Hovy, “AdvEntuRe: Adversarial Training for Textual
+Entailment with Knowledge-Guided Examples”, Proceedings of the Annual Meeting of the Association for
+Computational Linguistics (ACL) 2018
+C7Dongyeop Kang, Waleed Ammar, Bhavana Dalvi, Madeleine van Zuylen, Sebastian Kohlmeier, Eduard Hovy,
+Roy Schwartz, “A Dataset of Peer Reviews (PeerReaD): Collection, Insights and NLP Applications”, Proceed-
+ings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics:
+Human Language Technologies (NAACL) 2018
+C6Chu-Cheng Lin, Dongyeop Kang, Michael Gamon, Madian Khabsa, Ahmed Hassan Awadallah, Patrick Pantel,
+“Actionable email intent modeling with reparametrized RNN”, Association for the Advancement of Artificial
+Intelligence (AAAI) 2018
+C5Dongyeop Kang, Varun Gangal, Ang Lu, Zheng Chen, Eduard Hovy, “Detecting and Explaining Causes From
+Text For a Time Series Event”, Proceedings of the Conference on Empirical Methods in Natural Language
+Processing (EMNLP) 2017
+C4Dongyeop Kang, DongGyun Han, Na Hea Park, Sangtae Kim, U Kang, Soobin Lee, “Eventera: Real-time Event
+Recommendation System from Massive Heterogeneous Online Media”, ICDM 2014
+C3Dongyeop Kang, Woosang Lim, Kijung Shin, Sael Lee, U Kang, “Data/Feature Distributed Stochastic Coordi-
+nate Descent for Logistic Regression”, Proceedings of the 23rd ACM International Conference on Conference
+on Information and Knowledge Management (CIKM), 2014
+C2Dongyeop Kang, Youngja Park, Suresh Chari, “Hetero-Labeled LDA: A partially supervised topic model with
+heterogeneous label information”, European Conference on Machine Learning and Principles and Practice of
+Knowledge Discovery in Databases (ECML/PKDD) 2014
+C1Dongyeop Kang, Daxin Jiang, Jian Pei, Zhen Liao, Xiaohui Sun, Ho-Jin Choi, “Multidimensional Mining of
+Large-Scale Search Logs: A Topic-Concept Cube Approach”, ACM International Conference on Web Search
+and Data Mining (WSDM) 2011
+Refereed Workshop, Posters, Extended Abstracs, and Demos
+W9Minhwa Lee, Zae Myung Kim, Vivek Khetan, Dongyeop Kang, “Human-AI Collaborative Taxonomy Construc-
+tion: A Case Study in Profession-Specific Writing Assistants” In2Writing @ CHI 2024
+W8Ruixin Yang, Dheeraj Rajagopal, Shirley Anugrah Hayati, Bin Hu, Dongyeop Kang, “Confidence Calibration
+and Rationalization for LLMs via Multi-Agent Deliberation” Workshop on Reliable and Responsible Foundation
+Models, ICLR 2024
+W7London Lowmanstone*, Ruyuan Wan*, Risako Owan, Jaehyung Kim, Dongyeop Kang “Annotation Imputation
+to Individualize Predictions: Initial Studies on Distribution Dynamics and Model Predictions”, Workshop on
+Perspectivist Approaches to NLP (NLPerspectives) @ECAI 2023
+W6Rose Neis, Karin de Langis, Zae Myung Kim, Dongyeop Kang “An Analysis of Reader Engagement in Literary
+Fiction through Eye Tracking and Linguistic Features”, Workshop on Narrative Understanding (WNU) @ACL
+2023
+W5Ryan Hyunkyo Koo*, Anna Martin*, Linghe Wang, Dongyeop Kang, “Decoding the End-to-end Writing Tra-
+jectory in Scholarly Manuscripts”, In2Writing @CHI 2023
+W4Ruyuan Wan, Naome Etori, Karla Badillo-Urquiola, Dongyeop Kang, “User or Labor: An Interaction Frame-
+work for Human-Machine Relationships in NLP”, Workshops on Data Science with Human in the Loop (DaSH)
+@EMNLP 2022
+W3Steven Y.

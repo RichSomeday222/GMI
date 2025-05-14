@@ -1,0 +1,5 @@
+“Improving Iterative Text Revision
+by Learning Where to Edit from other Revision Tasks”, Proceedings of the Conference on Empirical Methods
+in Natural Language Processing (EMNLP), 2022
+C26 Wanyu Du, Vipul Raheja, Dhruv Kumar, Zae Myung Kim, Melissa Lopez, Dongyeop Kang.“Understanding
+Iterative Revision from Human-Written Text.

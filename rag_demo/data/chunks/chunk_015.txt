@@ -1,0 +1,60 @@
+Scholarship
+•2007 Summa Cum Laude, KAIST
+GRANTS AND RESEARCH GIFTS
+•2024 Gift from Grammarly Research, PI ( $150,000)
+•2024 Open Philanthropy, Lawyer Benchmarks, PI (w Daniel Schwarcz, Brett McDonnell) ( $74,132)
+•2024 UMN Data Science Institute (DSI), Small Seed Grant, PI (w Mingyi Hong), ( $15,000) “Aligning AI models
+with Human Values: Formulation, Algorithms and Applications”
+•2022 - 2024 Gift from 3M, PI ( $4,500), “Human-centric Natural Language Processing”
+•2023 Computing Grant from OpenAI ( $25,000)
+•2023 UMN Clinical and Translational Science Institute (CTSI), Co-PI (/w Jennifer Needle, Gwenyth Fischer)
+($50,000), “AI Assistant for Non-English Speaking Clinical Trial Participants”
+•2023 Computing Grant from Cohere AI ( $5,000), Google Cloud ( $6,000), Oracle Cloud ( $1,000), and Amazon
+Web Service ( $5,000)
+•2023 Grant from Cisco Research, PI ( $175,000), “Active Instruction Tuning for Efficient and Collaboration Task
+Annotation”
+•2023 Gift from Accenture Labs, PI ( $85,000), “Writing Assistant for Professionals using NLP+HCI Approaches”
+•2023 Gift from UMN Early Innovation Fund, PI ( $10,431), “Collecting Human Explanations: Cognitively-inspired
+NLP Systems”
+•2023 MnRI Seed Grant, PI: Karthik Desingh, Co-PI: Dongyeop Kang ( $40,000)
+•2022 Gift from Grammarly Research, PI ( $140,000), “Improving Writing Assistants with Planning and Iterative
+Revision”
+•2022 Grant from Sony Research, PI ( $100,000), “Goal-oriented Decoding Control in Language Generation”
+•2021 - 2024 Setup grant from University of Minnesota
+SERVICE AND PUBLIC OUTREACH
+Program Chairs and Organizers
+•Founder and Co-organizer, Workshop on “Pluralistic Alignment” at NeurIPS 2024
+•Steering committee, Workshop on Customizable NLP: Progress and Challenges in Customizing NLP for a Domain,
+Application, Group, or Individual (CustomNLP4U), at EMNLP 2024
+•Senior PC, Association for the Advancement of Artificial Intelligence (AAAI) 2023, 2024
+•Area Chair (Machine Learning in NLP), Conference on Empirical Methods in Natural Language Processing
+(EMNLP) 2023
+•Founder and Co-organizer, Workshop on “Intelligent and Interactive Writing Assistants (In2Writing)” at ACL
+2022, CHI 2023, and CHI 2024
+•Co-organizer, Minnesota NLP Seminar, 2021 Fall - 2022 Fall
+•Founder and Co-organizer, First Workshop on “CtrlGen: Controllable Generative Modeling in Language and
+Vision” at NeurIPS 2021
+Program Committees (Conferences)
+•2021-2022, ACL Rolling Review
+•2018-Present, ACL (Association for Computational Lingustics)
+•2019, 2022, NAACL (Annual Conference of the North American Chapter of the Association for Computational
+Linguistics)
+•2018-Present, EMNLP (Conference on Empirical Methods in Natural Language Processing)
+•2018-Present, NeurIPS (Conference on Neural Information Processing Systems)
+•2019-Present, ICLR (International Conference on Learning Representations )
+•2019, ICML (International Conference on Machine Learning)
+Program Committees (Workshops and Journals)
+•2018, MRQA (Machine Reading for Question Answering) workshop
+•2019, WNUT (Workshop on Noisy User-generated Text) workshop
+•2019, Scientometrics (International Journal for all Quantitative Aspects of the Science of Science, Communication
+in Science and Science Policy)
+Department and University Service
+•2021-2023, Admissions Committee, University of Minnesota
+•2023-Present, Curriculum Committee, University of Minnesota
+PUBLICATIONS
+Dissertations
+D1Dongyeop Kang, “Linguistically Informed Language Generation: A Multifaceted Approach”, Committees: Ed-
+uard Hovy, Jeffrey Bigham, Alan W Black, Jason Weston, Dan Jurafsky, PhD Dissertation 2020
+Archived Preprints and Papers Under Review
+A11 Daechul Ahn, Yura Choi, San Kim, Youngjae Yu, Dongyeop Kang, Jonghyun Choi “i-SRT: Aligning Large
+Multimodal Models for Videos by Iterative Self-Retrospective Judgment” https://arxiv.

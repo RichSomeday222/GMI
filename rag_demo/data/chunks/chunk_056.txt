@@ -1,0 +1,17 @@
+“Visualizing Cross-
+Lingual Discourse Relations in Multilingual TED Corpora”, CODI @EMNLP 2021
+C16 Dyah Adila, Dongyeop Kang, “Understanding Out-of-distribution: A Perspective of Data Dynamics”, ICBINB
+@NeurIPS 2021
+C15 Shirley Anugrah Hayati, Dongyeop Kang, Qingxiaoyang Zhu, Weiyan Shi, Zhou Yu, “INSPIRED: Toward
+Sociable Recommendation Dialog Systems”, Proceedings of the Conference on Empirical Methods in Natural
+Language Processing (EMNLP) 2020
+C14 Taehee Jung, Dongyeop Kang, Hua Cheng, Lucas Mentch, Thomas Schaaf, “Posterior Calibrated Training
+on Sentence Classification Tasks”, Proceedings of the Annual Meeting of the Association for Computational
+Linguistics (ACL) 2020
+C13 Dongyeop Kang*, Taehee Jung*, Lucas Mentch, Eduard Hovy (*equal contribution), “Earlier Isn’t Always
+Better: Sub-aspect Analysis on Corpus and System Biases in Summarization”, Proceedings of the Conference
+on Empirical Methods in Natural Language Processing (EMNLP) 2019
+C12 Dongyeop Kang, Anusha Balakrishnan, Pararth Shah, Paul Crook, Y-Lan Boureau, Jason Weston, “Recom-
+mendation as a Communication Game: Self-Supervised Bot-Play for Goal-oriented Dialogue”, Proceedings of
+the Conference on Empirical Methods in Natural Language Processing (EMNLP) 2019
+C11 Dongyeop Kang, Varun Gangal, Eduard Hovy, “(Male, Bachelor) and (Female, Ph.

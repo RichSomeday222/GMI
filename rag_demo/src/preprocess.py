@@ -1,7 +1,9 @@
-
 import os
 import re
 from pathlib import Path
+
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
 
 try:
     from PyPDF2 import PdfReader
@@ -13,6 +15,7 @@ try:
     nltk.data.find('tokenizers/punkt')
 except (ImportError, LookupError):
     nltk = None
+
 
 def load_text(file_path: Path) -> str:
     """
@@ -30,79 +33,56 @@ def load_text(file_path: Path) -> str:
     else:
         raise ValueError(f"不支持的文件类型：{ext}")
 
-def simple_chunks(
+
+def semantic_split(
     text: str,
-    max_sentences: int = 5,
-    max_chars: int = 500
+    threshold: float = 0.75,
+    max_chunk_chars: int = 500
 ) -> list[str]:
     """
-    按句子数或字符数切分：先分句，再累积到阈值就生成一个 chunk。
+    语义感知切分：根据相邻句向量相似度决定段落边界。
+    相似度高于阈值时合并，否则开启新块。
     """
-    # 1. 分句
+    # 1. 简单分句（中文按句号，也可替换为 nltk 方式）
     if nltk:
         from nltk.tokenize import sent_tokenize
-        sents = sent_tokenize(text)
+        sentences = sent_tokenize(text)
     else:
-        sents = re.split(r'(?<=[。！？\.!\?])\s*', text)
-        sents = [s.strip() for s in sents if s.strip()]
+        sentences = re.split(r'(?<=[。！？\.\?!])\s*', text)
+        sentences = [s for s in sentences if s.strip()]
 
-    # 2. 累积切块
-    chunks, curr, curr_len = [], [], 0
-    for s in sents:
-        if len(curr) >= max_sentences or curr_len + len(s) > max_chars:
-            chunks.append("".join(curr))
-            curr, curr_len = [], 0
-        curr.append(s)
-        curr_len += len(s)
-    if curr:
-        chunks.append("".join(curr))
+    if not sentences:
+        return []
+
+    # 2. 加载和缓存模型
+    global _semantic_model
+    try:
+        _semantic_model
+    except NameError:
+        _semantic_model = SentenceTransformer("all-MiniLM-L6-v2")
+
+    # 3. 句向量编码
+    embeddings = _semantic_model.encode(sentences, convert_to_numpy=True)
+
+    # 4. 按相似度合并句子
+    chunks = []
+    current_chunk = [sentences[0]]
+    current_len = len(sentences[0])
+    for i in range(1, len(sentences)):
+        sim = float(cosine_similarity([embeddings[i]], [embeddings[i-1]])[0][0])
+        sentence_len = len(sentences[i])
+        if sim >= threshold and current_len + sentence_len <= max_chunk_chars:
+            current_chunk.append(sentences[i])
+            current_len += sentence_len
+        else:
+            chunks.append("".join(current_chunk))
+            current_chunk = [sentences[i]]
+            current_len = sentence_len
+    # 添加最后一块
+    if current_chunk:
+        chunks.append("".join(current_chunk))
     return chunks
 
-def sliding_windows(
-    text: str,
-    max_chars: int = 512,
-    stride: int = 1
-) -> list[str]:
-    """
-    基于滑窗对单条长文本做重叠切分，每次滑动 stride 个句子。
-    """
-    # 1. 分句
-    sents = text.split("。")
-    sents = [s for s in sents if s.strip()]
-    windows = []
-    n = len(sents)
-    for start in range(0, n, stride):
-        chunk = "".join(sents[start:start + max(1, max_chars // 20)])
-        # 若 chunk 真正长度超 max_chars，再截断
-        if len(chunk) > max_chars:
-            chunk = chunk[:max_chars]
-        windows.append(chunk)
-        if start + max_chars // 20 >= n:
-            break
-    return windows
-
-def hybrid_split(
-    text: str,
-    max_sentences: int = 5,
-    simple_max_chars: int = 500,
-    window_max_chars: int = 512,
-    stride: int = 1,
-    long_thresh: int = 600
-) -> list[str]:
-    """
-    混合切分：先做简单分句阈值切分，
-    再对“超长”块用滑窗二次细分。
-    """
-    chunks = simple_chunks(text, max_sentences, simple_max_chars)
-    out_chunks = []
-    for c in chunks:
-        if len(c) > long_thresh:
-            # 对长 chunk 做滑窗切分
-            windows = sliding_windows(c, window_max_chars, stride)
-            out_chunks.extend(windows)
-        else:
-            out_chunks.append(c)
-    return out_chunks
 
 def main():
     # 路径设置
@@ -115,20 +95,15 @@ def main():
     resume_file = data_dir / "resume.pdf"  # 或 .txt/.md
     text = load_text(resume_file)
 
-    # 切分
-    chunks = hybrid_split(
-        text,
-        max_sentences=5,
-        simple_max_chars=500,
-        window_max_chars=512,
-        stride=1,
-        long_thresh=600
-    )
-    # 写入
-    for idx, chunk in enumerate(chunks, 1):
+    # 语义感知切分
+    chunks = semantic_split(text, threshold=0.65, max_chunk_chars=500)
+
+    # 写入文件
+    for idx, chunk in enumerate(chunks, start=1):
         path = chunks_dir / f"chunk_{idx:03d}.txt"
         path.write_text(chunk, encoding='utf-8')
-        print(f"[写入] {path.name} （{len(chunk)} 字符）")
+        print(f"[写入] {path.name} ({len(chunk)} 字符)")
+
 
 if __name__ == "__main__":
     main()

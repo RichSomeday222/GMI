@@ -1,0 +1,3 @@
+17764 under review
+A4Chenliang Li, Zeyi Liao, Siliang Zeng, Dongyeop Kang, Alfredo Garcia, Mingyi Hong, “Joint Demonstration
+and Preference Learning Improves Policy Alignment with Human Feedback”, https://arxiv.

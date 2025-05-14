@@ -1,0 +1,3 @@
+“The Semantic Reader Project: Augmenting Scholarly Documents through AI-Powered Interactive
+Reading Interfaces” Communications of ACM (CACM) 2023
+C27 Zae Myung Kim, Wanyu Du, Vipul Raheja, Dhruv Kumar, Dongyeop Kang.

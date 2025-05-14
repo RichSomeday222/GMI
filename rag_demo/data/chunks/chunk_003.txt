@@ -1,1 +1,1 @@
-js, Express, Spring Boot, Django, RESTful API, GraphQL Database: MongoDB, MySQL, PostgreSQL, Redis, Elasticsearch DevOps & Tools: Git, Linux, Docker, Kubernetes, CI/CD, AWS, Azure, Jenkins ML & AI: PyTorch, HuggingFace, TensorFlow, scikit-learn, LangChain, OpenAI SDK  PROFESSIONAL EXPERIENCE                        Snarkify, Inc.
+github.

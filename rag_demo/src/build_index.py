@@ -22,7 +22,7 @@ def main():
     n, dim = embeddings.shape
     print(f"加载 {n} 个向量，维度={dim}")
 
-    # 3. （可选）向量归一化，以便后面使用内积等价于余弦相似度
+    # 3. 向量归一化，以便后面使用内积等价于余弦相似度
     faiss.normalize_L2(embeddings)
 
     # 4. 构建索引：IndexFlatIP 使用内积 (inner product)

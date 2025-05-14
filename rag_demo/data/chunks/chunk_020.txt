@@ -1,0 +1,2 @@
+Hearst, Dongyeop Kang, “Shallow Synthesis of Knowledge in GPT-
+Generated Texts: A Case Study in Automatic Related Work Composition”, https://arxiv.

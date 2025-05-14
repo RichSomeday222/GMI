@@ -1,0 +1,3 @@
+Feng*, Varun Gangal*, Dongyeop Kang, Teruko Mitamura, Eduard Hovy, “GenAug: Data Augmen-
+tation for Finetuning Text Generators”, DeeLIO Workshop @EMNLP 2020
+W2Dongyeop Kang, Andrew Head, Risham Sidhu, Kyle Lo, Daniel Weld, Marti A.

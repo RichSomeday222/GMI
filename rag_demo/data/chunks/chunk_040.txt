@@ -1,0 +1,14 @@
+”, Proceedings of the Annual Meeting of the Association
+for Computational Linguistics (ACL) 2023
+C33 Debarati Das, David Ma, Dongyeop Kang “Balancing Effect of Training Dataset Distribution of Multiple Styles
+for Multi-Style Text Transfer”, Proceedings of the Annual Meeting of the Association for Computational Lin-
+guistics (ACL) Findings 2023
+C32 Jaehyung Kim, Jinwoo Shin, Dongyeop Kang “Prefer to Classify: Improving Text Classifiers via Auxiliary
+Preference Learning”, International Conference on Machine Learning (ICML) 2023
+C31 Taehee Jung, Joo-Kyung Kim, Sungjin Lee, Dongyeop Kang, “Cluster-Guided Label Generation in Extreme
+Multi-Label Classification”, Conference of the European Chapter of the Association for Computational Linguis-
+tics (EACL) 2023
+C30 Shirley Anugrah Hayati, Kyumin Park, Dheeraj Rajagopal, Lyle Ungar, Dongyeop Kang, “StyLEx: Explaining
+Styles with Lexicon-Based Human Perception”, Conference of the European Chapter of the Association for
+Computational Linguistics (EACL) 2023
+C29 Ruyuan Wan, Jaehyung Kim, Dongyeop Kang.

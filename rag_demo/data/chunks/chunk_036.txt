@@ -1,0 +1,4 @@
+14671 under review
+A1Anna Martin-Boyle, Andrew Head, Kyle Lo, Risham Sidhu, Marti A Hearst, Dongyeop Kang, “Complex Math-
+ematical Symbol Definition Structures: A Dataset and Model for Coordination Resolution in Definition Extrac-
+tion” https://arxiv.
