@@ -1,4 +1,0 @@
-12255
-under review
-A8Ritik Sachin Parkar, Jaehyung Kim, Jong Inn Park, Dongyeop Kang, “SelectLLM: Can LLMs Select Important
-Instructions to Annotate?

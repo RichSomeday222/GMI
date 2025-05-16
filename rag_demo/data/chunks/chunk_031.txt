@@ -1,4 +1,0 @@
-06874
-under review
-A3Shirley Anugrah Hayati, Minhwa Lee, Dheeraj Rajagopal, Dongyeop Kang, “How Far Can We Extract Diverse
-Perspectives from Large Language Models?

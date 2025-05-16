@@ -14,7 +14,7 @@ def main():
 
     emb_path = emb_dir / "resume_embeddings.npy"
     if not emb_path.exists():
-        raise FileNotFoundError(f"找不到嵌入文件: {emb_path}")
+        raise FileNotFoundError(f"Embedded file not found: {emb_path}")
 
     # 2. 加载嵌入向量
     embeddings = np.load(str(emb_path))
@@ -25,7 +25,7 @@ def main():
     # 3. 向量归一化，以便后面使用内积等价于余弦相似度
     faiss.normalize_L2(embeddings)
 
-    # 4. 构建索引：IndexFlatIP 使用内积 (inner product)
+    # 4. 构建索引：IndexFlatIP 使用inner product
     index = faiss.IndexFlatIP(dim)
 
     # 5. 添加向量到索引

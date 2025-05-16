@@ -1,1 +1,18 @@
-S.
+Under-
+standing Linguistic Styles through Lexica.”, Proceedings of the Conference on Empirical Methods in Natural
+Language Processing (EMNLP), 2021
+C22 Hwiyeol Jo, Dongyeop Kang, Andrew Head, Marti A. Hearst, “Modeling Mathematical Notation Semantics
+in Academic Papers ”, Proceedings of the Conference on Empirical Methods in Natural Language Processing
+(EMNLP) Findings, 2021
+C21 Jinwoo Nam, Daechul Ahn, Dongyeop Kang, Seong Jong Ha, Jonghyun Choi, “Zero-Shot Natural Language
+Video Localization”, Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) 2021
+Oral (Top 3%)
+C20 Dongyeop Kang, Eduard Hovy, “Style is NOT a single variable: Case Studies for Cross-Stylistic Language
+Understanding”, Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)
+2021 Oral
+C19 Andrew Head, Kyle Lo, Dongyeop Kang, Raymond Fok, Sam Skjonsberg, Daniel S. Weld, Marti A. Hearst,
+“Augmenting Scientific Papers with Just-in-Time, Position-Sensitive Definitions of Terms and Symbols”, ACM
+Conference on Human Factors in Computing Systems (CHI) 2021
+C18 Dongyeop Kang, Eduard Hovy, “Plan ahead: Self-Supervised Text Planning for Paragraph Completion Task”,
+Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP) 2020 Oral
+C17 Zae Myung Kim, Vassilina Nikoulina, Dongyeop Kang, Didier Schwab, Laurent Besacier.

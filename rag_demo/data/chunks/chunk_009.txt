@@ -1,6 +1,5 @@
-, Language Technology Institute, School of Computer Science
-Thesis: Linguistically Informed Language Generation: A Multifaceted Approach
-Advisor: Eduard Hovy
-Committee: Jeffrey Bigham, Alan W Black, Jason Weston, Dan Jurafsky
-Korea Advanced Institute of Science and Technology (KAIST) 2010
-B.
+Augment Difficult but Not too Different”, International Conference on Learning Representations (ICLR) 2022
+C24 Wanyu Du*, Zae Myung Kim*, Vipul Raheja, Dhruv Kumar, Dongyeop Kang (*equal contribution), “Read,
+Revise, Repeat: A System Demonstration for Human-in-the-loop Iterative Text Revision”, In2Writing @ACL
+2022, Best paper award
+C23 Hayati, Shirley Anugrah, Dongyeop Kang and Lyle Ungar.“Does BERT Learn as Humans Perceive?

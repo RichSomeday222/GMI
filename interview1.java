@@ -1,4 +1,5 @@
 
+
 import java.util.Arrays;
 
 /*
@@ -10,7 +11,7 @@ import java.util.Arrays;
  * 2. 包含负数
  * 3. 会有很大的情况
 */
-public class interview{
+public class interview1{
     public void moveZeros(int[] nums){
         int index = 0;
         for (int i = 0; i < nums.length; i++){
@@ -25,7 +26,7 @@ public class interview{
         }
     }
     public static void main(String[] args){
-        interview solu = new interview();
+        interview1 solu = new interview1();
         // Example 1
         int[] nums1 = {0, 1, 0, 2, 3, 4};
         solu.moveZeros(nums1);

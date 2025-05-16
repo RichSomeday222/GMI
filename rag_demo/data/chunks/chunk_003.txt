@@ -1,1 +1,109 @@
-github.
+Scholarship
+•2007 Summa Cum Laude, KAIST
+GRANTS AND RESEARCH GIFTS
+•2024 Gift from Grammarly Research, PI ( $150,000)
+•2024 Open Philanthropy, Lawyer Benchmarks, PI (w Daniel Schwarcz, Brett McDonnell) ( $74,132)
+•2024 UMN Data Science Institute (DSI), Small Seed Grant, PI (w Mingyi Hong), ( $15,000) “Aligning AI models
+with Human Values: Formulation, Algorithms and Applications”
+•2022 - 2024 Gift from 3M, PI ( $4,500), “Human-centric Natural Language Processing”
+•2023 Computing Grant from OpenAI ( $25,000)
+•2023 UMN Clinical and Translational Science Institute (CTSI), Co-PI (/w Jennifer Needle, Gwenyth Fischer)
+($50,000), “AI Assistant for Non-English Speaking Clinical Trial Participants”
+•2023 Computing Grant from Cohere AI ( $5,000), Google Cloud ( $6,000), Oracle Cloud ( $1,000), and Amazon
+Web Service ( $5,000)
+•2023 Grant from Cisco Research, PI ( $175,000), “Active Instruction Tuning for Efficient and Collaboration Task
+Annotation”
+•2023 Gift from Accenture Labs, PI ( $85,000), “Writing Assistant for Professionals using NLP+HCI Approaches”
+•2023 Gift from UMN Early Innovation Fund, PI ( $10,431), “Collecting Human Explanations: Cognitively-inspired
+NLP Systems”
+•2023 MnRI Seed Grant, PI: Karthik Desingh, Co-PI: Dongyeop Kang ( $40,000)
+•2022 Gift from Grammarly Research, PI ( $140,000), “Improving Writing Assistants with Planning and Iterative
+Revision”
+•2022 Grant from Sony Research, PI ( $100,000), “Goal-oriented Decoding Control in Language Generation”
+•2021 - 2024 Setup grant from University of Minnesota
+SERVICE AND PUBLIC OUTREACH
+Program Chairs and Organizers
+•Founder and Co-organizer, Workshop on “Pluralistic Alignment” at NeurIPS 2024
+•Steering committee, Workshop on Customizable NLP: Progress and Challenges in Customizing NLP for a Domain,
+Application, Group, or Individual (CustomNLP4U), at EMNLP 2024
+•Senior PC, Association for the Advancement of Artificial Intelligence (AAAI) 2023, 2024
+•Area Chair (Machine Learning in NLP), Conference on Empirical Methods in Natural Language Processing
+(EMNLP) 2023
+•Founder and Co-organizer, Workshop on “Intelligent and Interactive Writing Assistants (In2Writing)” at ACL
+2022, CHI 2023, and CHI 2024
+•Co-organizer, Minnesota NLP Seminar, 2021 Fall - 2022 Fall
+•Founder and Co-organizer, First Workshop on “CtrlGen: Controllable Generative Modeling in Language and
+Vision” at NeurIPS 2021
+Program Committees (Conferences)
+•2021-2022, ACL Rolling Review
+•2018-Present, ACL (Association for Computational Lingustics)
+•2019, 2022, NAACL (Annual Conference of the North American Chapter of the Association for Computational
+Linguistics)
+•2018-Present, EMNLP (Conference on Empirical Methods in Natural Language Processing)
+•2018-Present, NeurIPS (Conference on Neural Information Processing Systems)
+•2019-Present, ICLR (International Conference on Learning Representations )
+•2019, ICML (International Conference on Machine Learning)
+Program Committees (Workshops and Journals)
+•2018, MRQA (Machine Reading for Question Answering) workshop
+•2019, WNUT (Workshop on Noisy User-generated Text) workshop
+•2019, Scientometrics (International Journal for all Quantitative Aspects of the Science of Science, Communication
+in Science and Science Policy)
+Department and University Service
+•2021-2023, Admissions Committee, University of Minnesota
+•2023-Present, Curriculum Committee, University of Minnesota
+PUBLICATIONS
+Dissertations
+D1Dongyeop Kang, “Linguistically Informed Language Generation: A Multifaceted Approach”, Committees: Ed-
+uard Hovy, Jeffrey Bigham, Alan W Black, Jason Weston, Dan Jurafsky, PhD Dissertation 2020
+Archived Preprints and Papers Under Review
+A11 Daechul Ahn, Yura Choi, San Kim, Youngjae Yu, Dongyeop Kang, Jonghyun Choi “i-SRT: Aligning Large
+Multimodal Models for Videos by Iterative Self-Retrospective Judgment” https://arxiv.org/abs/2406.11280v1
+under review
+A10 Shirley Anugrah Hayati, Taehee Jung, Tristan Bodding-Long, Sudipta Kar, Abhinav Sethy, Joo-Kyung Kim,
+Dongyeop Kang, “Chain of Instructions: Compositional Instruction Tuning on Large Language Models”,
+https://arxiv.org/abs/2402.11532 under review
+A9Anna Martin-Boyle, Aahan Tyagi, Marti A. Hearst, Dongyeop Kang, “Shallow Synthesis of Knowledge in GPT-
+Generated Texts: A Case Study in Automatic Related Work Composition”, https://arxiv.org/abs/2402.12255
+under review
+A8Ritik Sachin Parkar, Jaehyung Kim, Jong Inn Park, Dongyeop Kang, “SelectLLM: Can LLMs Select Important
+Instructions to Annotate?” https://arxiv.org/abs/2401.16553 under review
+A7Karin de Langis, Ryan Koo, Dongyeop Kang, “ Reinforcement Learning with Dynamic Multi-Reward Weighting
+for Multi-Style Controllable Generation”, under review
+A6Debarati Das*, Karin de Langis*, Anna Martin-Boyle*, Jaehyung Kim*, Minhwa Lee*, Zae Myung Kim*,
+Shirley Anugrah Hayati, Risako Owan, Bin Hu, Ritik Sachin Parkar, Ryan Koo, Jong Inn Park, Aahan Tyagi,
+Libby Ferland, Sanjali Roy, Vincent Liu, Dongyeop Kang, “Under the Surface: Tracking the Artifactuality of
+LLM-Generated Data”, https://arxiv.org/abs/2401.14698 under review
+A5Tianhao Zhang, Zhexiao Lin, Zhecheng Sheng, Chen Jiang, Dongyeop Kang “On the Sequence Evaluation based
+on Stochastic Processes” https://arxiv.org/abs/2405.17764 under review
+A4Chenliang Li, Zeyi Liao, Siliang Zeng, Dongyeop Kang, Alfredo Garcia, Mingyi Hong, “Joint Demonstration
+and Preference Learning Improves Policy Alignment with Human Feedback”, https://arxiv.org/abs/2406.06874
+under review
+A3Shirley Anugrah Hayati, Minhwa Lee, Dheeraj Rajagopal, Dongyeop Kang, “How Far Can We Extract Diverse
+Perspectives from Large Language Models?” https://https://arxiv.org/abs/2311.09799 under review
+A2Hao Zou, Zae Myung Kim, Dongyeop Kang, “Diffusion Models in NLP: A Survey”
+https://arxiv.org/abs/2305.14671 under review
+A1Anna Martin-Boyle, Andrew Head, Kyle Lo, Risham Sidhu, Marti A Hearst, Dongyeop Kang, “Complex Math-
+ematical Symbol Definition Structures: A Dataset and Model for Coordination Resolution in Definition Extrac-
+tion” https://arxiv.org/abs/2305.14660 under review
+Refereed Conference Proceedings
+C52 Haechan Kim, Junho Myung, Seoyoung Kim, Sungpah Lee, Dongyeop Kang, Juho Kim “LearnerVoice: A
+Dataset of Non-Native English Learners’ Spontaneous Speech” Interspeech 2024
+C51 Carl Winge, Adam Imdieke, Bahaa Aldeeb, Dongyeop Kang, Karthik Desingh, “Talk Through It: End User
+Directed Manipulation Learning” IEEE Robotics and Automation Letters (RA-L) 2024
+C50 Zae Myung Kim, Kwang Hee Lee, Preston Zhu, Vipul Raheja, Dongyeop Kang, “Threads of Subtlety: Detecting
+Machine-Generated Texts Through Discourse Motifs” Proceedings of the Annual Meeting of the Association for
+Computational Linguistics (ACL) 2024 link
+C49 Daechul Ahn, Yura Choi, Youngjae Yu, Dongyeop Kang, Jonghyun Choi, “Tuning Large Multimodal Models
+for Videos using Reinforcement Learning from AI Feedback ” , Proceedings of the Annual Meeting of the
+Association for Computational Linguistics (ACL) 2024 link Oral
+C48 Jihyung Kil, Joo-Kyung Kim, Dongyeop Kang, “II-MMR: Identifying and Improving Multi-modal Multi-hop
+Reasoning in Visual Question Answering”, Findings of the Annual Meeting of the Association for Computational
+Linguistics (ACL) 2024 link
+C47 Ryan Koo, Minhwa Lee, Vipul Raheja, Jong Inn Park, Zae Myung Kim, Dongyeop Kang, “Benchmarking
+Cognitive Biases in Large Language Models as Evaluators”, Findings of the Annual Meeting of the Association
+for Computational Linguistics (ACL) 2024 link
+C46 Gabriel Garlough-Shah, Jong Inn Park, Shirley Anugrah Hayati, Dongyeop Kang, Jisu Huh, “Consumer En-
+gagement With AI-Powered Search Engines and Implications for the Future of Search Advertising” Association
+for Education in Journalism and Mass Communication (AEJMC) 2024
+C45 Debarati Das, Ishaan Gupta, Jaideep Srivastava, Dongyeop Kang, “Which Modality should I use – Text, Motif,
+or Image?

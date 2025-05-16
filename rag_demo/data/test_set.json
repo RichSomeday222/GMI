@@ -1,33 +1,34 @@
 [
     {
-      "query": "What is their current academic position and affiliation?",
-      "relevant_chunks": [37],
-      "expected_answer": "Assistant Professor at University of Minnesota, Twin Cities since 2021."
+      "query": "What is the resume owner’s current professional title and affiliation?",
+      "relevant_chunks": [1],
+      "expected_answer": "Assistant Professor at the University of Minnesota, Twin Cities (2021–present)."
     },
     {
-      "query": "Who is his student?",
-      "relevant_chunks": [32],
-      "expected_answer": "Smitha Muthya Sudheendra (Ph.D. student) and others."
+      "query": "What research gifts and grants did he receive in 2024, and how much was each award for?",
+      "relevant_chunks": [3],
+      "expected_answer": "1. Gift from Grammarly Research (PI): $150,000 2. Open Philanthropy “Lawyer Benchmarks” gift (w/ Daniel Schwarcz & Brett McDonnell): $74,132 3.UMN Data Science Institute Small Seed Grant (w/ Mingyi Hong): $15,000"
     },
     {
-      "query": "List three major awards or honors they received after 2020.",
-      "relevant_chunks": [4],
-      "expected_answer": "• 2022–2024 Grammarly Research Gift Award; • 2023 Cisco Research Award; • 2024 Open Philanthropy Gift Award."
-    },
-    {
-      "query": "Name two conferences where they served as Senior PC or Program Chair.",
-      "relevant_chunks": [39, 41],
-      "expected_answer": "Senior PC at AAAI 2023, AAAI 2024; Founder and Co‑organizer of the Pluralistic Alignment Workshop at NeurIPS 2024."
-    },
-    {
-      "query": "Which grants did they receive in 2023 and their amounts?",
+      "query": "Where and in what format was the paper “Everyone’s Voice Matters: Quantifying Annotation Disagreement Using Demographic Information” presented?",
       "relevant_chunks": [5],
-      "expected_answer": "• Computing Grant from OpenAI ($25,000); • UMN Clinical and Translational Science Institute Grant ($50,000)."
+      "expected_answer": "It was presented as an oral paper at the Thirty‑Seventh AAAI Conference on Artificial Intelligence (AAAI) in 2023."
     },
     {
-      "query": "What courses have they taught in Spring 2023?",
-      "relevant_chunks": [72, 73],
-      "expected_answer": "CSCI 5541 – Natural Language Processing; CSCI 5980 – NLP with Deep Learning."
+        "query": "Which paper on natural language video localization did he co‑author, and where was it presented?",
+        "relevant_chunks": [10],
+        "expected_answer": "'Zero‑Shot Natural Language Video Localization', co‑authored by Jinwoo Nam, Daechul Ahn, Dongyeop Kang, Seong Jong Ha and Jonghyun Choi, presented orally (Top 3%) at ICCV 2021."
+    },
+    {
+        "query": "What is the title of the paper by Dongyeop Kang and Eduard Hovy at ACL 2021, and in what format was it presented?",
+        "relevant_chunks": [10],
+        "expected_answer": "'Style is NOT a single variable: Case Studies for Cross‑Stylistic Language Understanding', presented as an oral paper at ACL 2021."
+    },
+    
+    {
+      "query": "Who are his current Ph.D. students?",
+      "relevant_chunks": [12],
+      "expected_answer": "His current Ph.D. students are Karin de Langis (DDF Fellow), Debarati Das (co‑advised with Jaideep Srivastava), Risako Owan (co‑advised with Maria Gini), Zae Myung Kim, Anna Martin‑Boyle (CS&E Fellow), Shirley Anugrah Hayati, and James Mooney."
     }
   ]
   

@@ -1,7 +1,0 @@
-16553 under review
-A7Karin de Langis, Ryan Koo, Dongyeop Kang, “ Reinforcement Learning with Dynamic Multi-Reward Weighting
-for Multi-Style Controllable Generation”, under review
-A6Debarati Das*, Karin de Langis*, Anna Martin-Boyle*, Jaehyung Kim*, Minhwa Lee*, Zae Myung Kim*,
-Shirley Anugrah Hayati, Risako Owan, Bin Hu, Ritik Sachin Parkar, Ryan Koo, Jong Inn Park, Aahan Tyagi,
-Libby Ferland, Sanjali Roy, Vincent Liu, Dongyeop Kang, “Under the Surface: Tracking the Artifactuality of
-LLM-Generated Data”, https://arxiv.

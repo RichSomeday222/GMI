@@ -1,1 +1,60 @@
-S.
+8980 is Introduction to NLP Research , 5541 is Natural Language Processing
+ADVISING AND MENTORING
+Current Ph.D. Students
+•Karin de Langis, DDF Fellow
+•Debarati Das (co-advised with Jaideep Srivastava)
+•Risako Owan (co-advised with Maria Gini)
+•Zae Myung Kim
+•Anna Martin-Boyle, CS&E Fellow
+•Shirley Anugrah Hayati
+•James Mooney
+Current Masters Students
+•Ryan Koo
+•Linghe Wang
+•Wen Jianing
+Current Undergraduate Students
+•Bin Hu
+•Tripp Dow
+•Sanjali Roy
+•William Walker
+•Preston Zhu
+•Vincent Liu
+Past Ph.D./Masters/Undergraduate Students
+•Minhwa Lee, visiting Master student (UMass) →Research Assistant, UMass Lowell
+•Ishaan Gupta, CS&E Undergraduate
+•Ruixin Yang, visiting Undergraduate (UBC) →GaTech Masters
+•Jong Inn Park, Data Science Masters, Plan B →Research Assistant, UMN
+•Ritik Parkar, Data Science Masters, Plan B
+•Aahan Tyagi, Data Science Masters, Plan B
+•Amrutha Shetty, Data Science Masters, Plan B →Data analyst, Malec Engineering
+•London Lowmanstone, CS&E Masters →UMN CS Ph.D.
+•Hao Zou, CS&E Undergraduate
+•Kelsey Neis, Data Science Masters, Plan B
+•James Mooney, CS&E Masters →UMN CS Ph.D.
+•Ruyuan Wan, Linguistics Masters →University of Notre Dame, CS Ph.D. →Penn State University, CS Ph.D.
+•Miguel Migu´ elez D´ ıaz, Data Science Masters →Amazon
+•Yang He, CS&E Masters →Google
+•David Ma, CS&E Masters →Optiver
+•Jaehyung Kim, Visiting Ph.D. from KAIST →CMU Postdoc →Assistant Professor, Yonsei AI
+•Petros Karypis, CS&E Undergraduate →UCSD Masters →UCSD PhD
+•Wanyu Du, Grammarly intern →University of Virginia →Amazon AWS
+Ph.D./Masters/Undergraduate Committee Member
+•Basel Hussein (Ph.D., Learning Technologies, Education & Human Development), Navigating Learning and Goal
+Trajectories During Impasses , current
+•Tianhao Zhang (Ph.D., Applied Mathematics), current
+•Maral Abdollahi (Ph.D., Hubbard School), current
+•Smitha Muthya Sudheendra (Ph.D., CS&E), current
+•Haiwei Ma (Ph.D., CS&E), Understanding Expressive Writing in Online Health Communities , current
+•Ruyuan Wan (Masters, Linguistics), Plan A (thesis), Riddikulus: Detection of Persuasion Techniques in Memes ,
+Masters Thesis, Passed
+•Miguel Migu´ elez D´ ıaz (Masters, Data Science), Plan B (capstone), Contextual Saliency Variation of Sentiment
+Classifiers , Masters Capstone, Passed
+•Smitha Muthya Sudheendra (Masters, CS&E) Computational Trust Approach to Measuring Trust in News Or-
+ganizations , Masters Thesis, Passed
+•Yu Fang (Masters, CS&E), Directed Research, Passed
+•Jared Grambihler (Undergraduate, CS&E), Drug and Dosage Discovery for Opioid Use Disorder Recovery on
+Social Media Posts , Undergraduate Honor Thesis, Passed
+•David Ha (Undergraduate, CS&E), Supplementing Bug Reports using Matched App Reviews , Undergraduate
+Honor Thesis, Passed
+•Risako Owan (Ph.D., CS&E), A Computational Exploration of Modal Verbs: From Theories to Practice , OPE/WPE,
+passed

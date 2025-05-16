@@ -1,1 +1,4 @@
-D.
+“Understanding
+Iterative Revision from Human-Written Text.”, Proceedings of the Annual Meeting of the Association for
+Computational Linguistics (ACL) 2022
+C25 Jaehyung Kim, Dongyeop Kang, Sungsoo Ahn, Jinwoo Shin.“What Makes Better Augmentation Strategies?

@@ -7,11 +7,11 @@ from query_engine import answer_query_async, batch_answer_queries
 async def run_benchmark():
     # Test queries
     test_queries = [
-        "What is Chloe's educational background?",
-        "What programming languages does she know?",
-        "What was her role at Snarkify?",
-        "What kind of projects has she worked on?",
-        "What database technologies is she familiar with?"
+        "What is Dongyeop Kang‘s current faculty position and at which institution?",
+        "Where did he earn his Ph.D., and what was the title of his dissertation?",
+        "List three major research grants he received in 2023 with their amounts.",
+        "Which workshops or conferences has he organized or served as Program Chair?",
+        "What courses did he teach in Spring 2023 and Fall 2023?"
     ]
     
     # 1. Sequential test (using async functions one at a time)

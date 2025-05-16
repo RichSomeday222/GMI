@@ -14,13 +14,13 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # 2. 加载模型
-    #    推荐 all-MiniLM-L6-v2：小巧、速度快、效果不错
+    #  all-MiniLM-L6-v2：小巧、速度快、效果不错
     model = SentenceTransformer("all-MiniLM-L6-v2")
 
     # 3. 读取所有片段文本
     chunk_files = sorted(chunks_dir.glob("chunk_*.txt"))
     texts = [f.read_text(encoding="utf-8") for f in chunk_files]
-    print(f"找到 {len(texts)} 个文本片段，开始生成嵌入…")
+    print(f"Find {len(texts)}text snippets and start generating embeddings...")
 
     # 4. 批量编码（convert_to_numpy=True 直接返回 NumPy 数组）
     embeddings = model.encode(
@@ -28,7 +28,7 @@ def main():
         show_progress_bar=True,
         convert_to_numpy=True
     )
-    print("嵌入生成完毕，维度：", embeddings.shape)
+    print("Embedding is generated, dimension: ", embeddings.shape)
 
     # 5. 保存结果
     vec_path  = out_dir / "resume_embeddings.npy"
@@ -40,8 +40,8 @@ def main():
     with open(txt_path, "w", encoding="utf-8") as fp:
         json.dump(texts, fp, ensure_ascii=False, indent=2)
 
-    print(f"向量已保存到：{vec_path}")
-    print(f"文本映射已保存到：{txt_path}")
+    print(f"The vector has been saved to: {vec_path}")
+    print(f"Text mapping saved to: {txt_path}")
 
 if __name__ == "__main__":
     main()

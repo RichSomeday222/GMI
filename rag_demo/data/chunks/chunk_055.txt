@@ -1,6 +1,0 @@
-Hearst,
-“Augmenting Scientific Papers with Just-in-Time, Position-Sensitive Definitions of Terms and Symbols”, ACM
-Conference on Human Factors in Computing Systems (CHI) 2021
-C18 Dongyeop Kang, Eduard Hovy, “Plan ahead: Self-Supervised Text Planning for Paragraph Completion Task”,
-Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP) 2020 Oral
-C17 Zae Myung Kim, Vassilina Nikoulina, Dongyeop Kang, Didier Schwab, Laurent Besacier.

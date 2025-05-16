@@ -1,7 +1,4 @@
-Watson, Yorktown, NY
-•2011: Visiting Researcher – Hong Kong University of Science and Technology, Hong Kong
-•2010 Summer: Research Intern – Microsoft Research, Redmond, WA
-•2009 – 2010: Research Intern – Microsoft Research Asia, Beijing, China
-EDUCATION
-Carnegie Mellon University 2020
-Ph.
+“Improving Iterative Text Revision
+by Learning Where to Edit from other Revision Tasks”, Proceedings of the Conference on Empirical Methods
+in Natural Language Processing (EMNLP), 2022
+C26 Wanyu Du, Vipul Raheja, Dhruv Kumar, Zae Myung Kim, Melissa Lopez, Dongyeop Kang.
