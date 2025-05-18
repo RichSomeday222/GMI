@@ -18,8 +18,6 @@ A semantic question-answering system built on a personal resume, using RAG, Hypo
 
 ## Project Structure
 
-## Project Structure
-
 rag_demo/
 ├── data/
 │ └── resume.pdf # Input resume file (PDF, TXT, or MD)
