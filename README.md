@@ -18,7 +18,7 @@ A semantic question-answering system built on a personal resume, using RAG, Hypo
 
 ## Project Structure
 
-<pre> ``` rag_demo/ ├── data/ │ └── resume.pdf # Input resume file (PDF, TXT, or MD) ├── embeddings/ │ ├── resume_embeddings.npy # Vector matrix of chunked resume │ └── texts.json # Mapping from vectors back to text ├── index/ │ └── resume.index # FAISS index file ├── src/ │ ├── preprocess.py # Load and semantically split resume │ ├── embed.py # Generate embeddings from text chunks │ ├── build_index.py # Build and persist FAISS index │ ├── query_engine.py # Core RAG + HyDE logic and GMI API integration │ ├── benchmark.py # Compare sequential vs. async query performance │ └── evaluation.py # Retrieval and generation evaluation scripts ├── .env # GMI_API_KEY=your_api_key_here ``` </pre>
+ rag_demo/ ├── data/ │ └── resume.pdf # Input resume file (PDF, TXT, or MD) ├── embeddings/ │ ├── resume_embeddings.npy # Vector matrix of chunked resume │ └── texts.json # Mapping from vectors back to text ├── index/ │ └── resume.index # FAISS index file ├── src/ │ ├── preprocess.py # Load and semantically split resume │ ├── embed.py # Generate embeddings from text chunks │ ├── build_index.py # Build and persist FAISS index │ ├── query_engine.py # Core RAG + HyDE logic and GMI API integration │ ├── benchmark.py # Compare sequential vs. async query performance │ └── evaluation.py # Retrieval and generation evaluation scripts ├── .env # GMI_API_KEY=your_api_key_here 
 
 ## Installation
 
