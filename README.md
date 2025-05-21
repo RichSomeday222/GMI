@@ -46,5 +46,13 @@ rag_demo/
    cd rag_demo
    python3 -m venv venv
    source venv/bin/activate
-   pip install -r requirements.txt
    
+
+2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+3. Create a .env file in the project root:
+   ```bash
+   GMI_API_KEY=your_api_key_here
+
+## Usage
