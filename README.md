@@ -56,22 +56,33 @@ rag_demo/
    GMI_API_KEY=your_api_key_here
 
 ## Usage
-1. Preprocess the resume
-  ```bash
-  python src/preprocess.py
 
-2. Generate embeddings
-  ```bash
-  python src/embed.py
+### 1. Preprocess the resume
 
-3. Build the FAISS index
-  ```bash
-  python src/build_index.py
+```bash
+python src/preprocess.py
+```
 
-4. Run the multi-turn CLI
-  ```bash
-  python src/query_engine.py
+### 2. Generate embeddings
 
-5. Run the benchmark
-  ```bash
-  python src/benchmark.py
+```bash
+python src/embed.py
+```
+
+### 3. Build the FAISS index
+
+```bash
+python src/build_index.py
+```
+
+### 4. Run the multi-turn CLI
+
+```bash
+python src/query_engine.py
+```
+
+### 5. Run the benchmark
+
+```bash
+python src/benchmark.py
+```
