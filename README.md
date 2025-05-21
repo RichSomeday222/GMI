@@ -93,4 +93,7 @@ Embedding model: all-MiniLM-L6-v2 via sentence-transformers
 LLM model: deepseek-ai/DeepSeek-R1 on GMI Cloud
 
 API endpoint: https://inference-engine.gmicloud.ai/v1/chat/completions
+## Result
+![image](https://github.com/user-attachments/assets/9787f417-999a-4466-bd18-9044d2469b29)
+
 
