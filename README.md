@@ -57,17 +57,21 @@ rag_demo/
 
 ## Usage
 1. Preprocess the resume
-```bash
-python src/preprocess.py
+  ```bash
+  python src/preprocess.py
+
 2. Generate embeddings
-```bash
-python src/embed.py
+  ```bash
+  python src/embed.py
+
 3. Build the FAISS index
-```bash
-python src/build_index.py
+  ```bash
+  python src/build_index.py
+
 4. Run the multi-turn CLI
-```bash
-python src/query_engine.py
+  ```bash
+  python src/query_engine.py
+
 5. Run the benchmark
-```bash
-python src/benchmark.py
+  ```bash
+  python src/benchmark.py
