@@ -86,3 +86,11 @@ python src/query_engine.py
 ```bash
 python src/benchmark.py
 ```
+
+## Model and API Details
+Embedding model: all-MiniLM-L6-v2 via sentence-transformers
+
+LLM model: deepseek-ai/DeepSeek-R1 on GMI Cloud
+
+API endpoint: https://inference-engine.gmicloud.ai/v1/chat/completions
+
